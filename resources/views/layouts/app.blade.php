@@ -78,6 +78,12 @@
         <main class="py-4">
             @yield('content')
         </main>
+        <footer class="fixed-bottom">
+        <center>
+            Sandi Suryadi Putra
+            - {{ date('Y') }}
+        </center>
+        </footer>
     </div>
 </body>
 </html>
