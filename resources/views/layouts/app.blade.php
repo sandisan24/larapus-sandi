@@ -78,10 +78,11 @@
         <main class="py-4">
             @yield('content')
         </main>
+
         <footer class="fixed-bottom">
-        <center>
-            Sandi Suryadi Putra
-            - {{ date('Y') }}
+            <center>
+            copyright &copy; Larapus Made With Love & Mineral Water
+            - {{date('Y')}}
         </center>
         </footer>
     </div>
